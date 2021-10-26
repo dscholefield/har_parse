@@ -16,3 +16,8 @@ python3 har_parse.py <baseline .har file> <new .har file>
 Note:
 
 When exporting .har files from browsers, sometimes the export will not create valid JSON output (as understood by the Python JSON parse library 'simplejson'.) For some reason, re-exporting the .har file sometimes solves this formatting problem and this may be due to the 'settling' of the .har as various onload JavaScript functions are given time to complete. I've never been able to get to the bottom of this issue as the .har file exported is syntactically valid according to multiple online linters, but still trips up the Python library).  
+
+Example use when no files have changed:
+
+![har_parse no changes](hp1.jpg?raw=true "running har_parse with no changes")
+
