@@ -21,3 +21,6 @@ Example use when no files have changed:
 
 ![har_parse no changes](hp1.jpg?raw=true "running har_parse with no changes")
 
+Example use when new JavaScript files have been added:
+
+![har_parse new javascript](hp2.jpg?raw=true "running har_parse with new javascript")
